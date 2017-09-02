@@ -23,3 +23,7 @@ $("input[type=text]").keypress(function(event) {
   }
 })
 //APPEND = ADD NEW HTML CODE
+
+$(".fa-plus").click(function() {
+  $("input[type=text]").fadeToggle()
+})
